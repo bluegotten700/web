@@ -98,7 +98,7 @@ export default function Component() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
                   Giới Thiệu
                 </h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-[900px] text-muted-foreground md:text-lg">
                   Trường Tiểu Học Trà Chan được thành lập với sứ mệnh cao cả: cung cấp một nền giáo dục chất lượng, nhân
                   văn và hoàn toàn miễn phí cho trẻ em trong cộng đồng, đặc biệt là những em có hoàn cảnh khó khăn.
                   Chúng tôi tin rằng mọi đứa trẻ đều xứng đáng có cơ hội được học tập, phát triển toàn diện và xây dựng
