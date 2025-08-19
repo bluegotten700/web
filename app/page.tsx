@@ -18,7 +18,7 @@ export default function Component() {
             height={40}
             className="rounded-full"
           />
-          <span className="text-2xl font-bold tracking-tight">Trà Chân</span>
+          <span className="text-2xl font-bold tracking-tight">Trà Chan</span>
         </Link>
         <nav className="hidden md:flex gap-6">
           <Link className="text-lg font-medium hover:underline underline-offset-4 flex items-center gap-1" href="#home">
@@ -28,7 +28,7 @@ export default function Component() {
             className="text-lg font-medium hover:underline underline-offset-4 flex items-center gap-1"
             href="#about"
           >
-            <Users className="h-5 w-5" /> Về Chúng Tôi
+            <Users className="h-5 w-5" /> Giới Thiệu
           </Link>
           <Link
             className="text-lg font-medium hover:underline underline-offset-4 flex items-center gap-1"
@@ -37,7 +37,7 @@ export default function Component() {
             <BookOpen className="h-5 w-5" /> Chương Trình
           </Link>
           <Link className="text-lg font-medium hover:underline underline-offset-4 flex items-center gap-1" href="#news">
-            <Newspaper className="h-5 w-5" /> Tin Tức
+            <Newspaper className="h-5 w-5" /> Sinh Hoạt
           </Link>
           <Link
             className="text-lg font-medium hover:underline underline-offset-4 flex items-center gap-1"
@@ -59,14 +59,14 @@ export default function Component() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-primary">
-                  Trường Tiểu Học Trà Chân
+                  Trường Tiểu Học Trà Chan
                 </h1>
                 <p className="max-w-[600px] text-lg md:text-xl text-muted-foreground">
                   Nơi ươm mầm tri thức, chắp cánh ước mơ cho những trái tim hiếu học.
                 </p>
               </div>
               <p className="max-w-[600px] text-muted-foreground md:text-lg">
-                Trà Chân là ngôi trường phi lợi nhuận, hoạt động vì cộng đồng, cam kết mang đến môi trường học tập thân
+                Trà Chan là ngôi trường phi lợi nhuận, hoạt động vì cộng đồng, cam kết mang đến môi trường học tập thân
                 thiện, chất lượng cho mọi học sinh, đặc biệt là những em có hoàn cảnh khó khăn nhưng luôn nỗ lực vươn
                 lên.
               </p>
@@ -96,17 +96,17 @@ export default function Component() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
-                  Về Chúng Tôi
+                  Giới Thiệu
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Trường Tiểu học Trà Chân được thành lập với sứ mệnh cao cả: cung cấp một nền giáo dục chất lượng, nhân
+                  Trường Tiểu Học Trà Chan được thành lập với sứ mệnh cao cả: cung cấp một nền giáo dục chất lượng, nhân
                   văn và hoàn toàn miễn phí cho trẻ em trong cộng đồng, đặc biệt là những em có hoàn cảnh khó khăn.
                   Chúng tôi tin rằng mọi đứa trẻ đều xứng đáng có cơ hội được học tập, phát triển toàn diện và xây dựng
                   một tương lai tươi sáng.
                 </p>
               </div>
               <p className="max-w-[900px] text-muted-foreground md:text-lg">
-                Tại Trà Chân, chúng tôi không chỉ truyền đạt kiến thức mà còn nuôi dưỡng tâm hồn, rèn luyện kỹ năng sống
+                Tại nơi đây, chúng tôi không chỉ truyền đạt kiến thức mà còn nuôi dưỡng tâm hồn, rèn luyện kỹ năng sống
                 và khơi dậy niềm đam mê học hỏi. Đội ngũ giáo viên tận tâm, giàu kinh nghiệm luôn đồng hành cùng các em,
                 tạo nên một môi trường học tập tràn đầy yêu thương và sự thấu hiểu. Chúng tôi tự hào là mái nhà thứ hai,
                 nơi các em được là chính mình, được khám phá tiềm năng và tự tin vươn lên.
@@ -125,8 +125,8 @@ export default function Component() {
                 Chương Trình Giáo Dục
               </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Chúng tôi cung cấp một chương trình học toàn diện, kết hợp giữa kiến thức học thuật và phát triển kỹ
-                năng mềm, giúp học sinh phát triển cân bằng.
+                Trường cung cấp một chương trình học thực tiễn, kết hợp giữa kiến thức học thuật và phát triển kỹ
+                năng mềm, giúp học sinh phát triển toàn diện.
               </p>
             </div>
           </div>
@@ -140,12 +140,12 @@ export default function Component() {
                   src="/vietnamese-classroom.png"
                   width="300"
                 />
-                <CardTitle className="mt-4 text-primary">Chương Trình Học Thuật</CardTitle>
+                <CardTitle className="mt-4 text-primary">Chương Trình Học</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
                   Chương trình giảng dạy theo chuẩn Bộ Giáo dục và Đào tạo, được thiết kế sáng tạo để khơi gợi niềm yêu
-                  thích học tập ở trẻ.
+                  thích học tập ở các em.
                 </p>
               </CardContent>
             </Card>
@@ -180,8 +180,8 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Tập trung vào kỹ năng tư duy phản biện, giải quyết vấn đề, làm việc nhóm và giao tiếp, chuẩn bị cho
-                  tương lai.
+                  Tập trung vào kỹ năng tư duy phản biện, giải quyết vấn đề, làm việc nhóm và giao tiếp để chuẩn bị
+                  cho tương lai.
                 </p>
               </CardContent>
             </Card>
@@ -195,10 +195,10 @@ export default function Component() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
-                Tin Tức & Sự Kiện
+                Sinh Hoạt Học Sinh
               </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Cập nhật những hoạt động mới nhất và các sự kiện đáng chú ý của trường Trà Chân.
+                Cập nhật những hoạt động mới nhất và các sự kiện đáng chú ý tại trường.
               </p>
             </div>
           </div>
@@ -216,7 +216,7 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm">
-                  Ngày 05/09/2024 - Trường Trà Chân hân hoan chào đón năm học mới với nhiều niềm vui và hy vọng.
+                  Ngày 05/09/2024 - Trường Tiểu Học Trà Chan hân hoan chào đón năm học mới với nhiều niềm vui và hy vọng.
                 </p>
               </CardContent>
             </Card>
@@ -233,7 +233,7 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm">
-                  Ngày 20/10/2024 - Các em học sinh đã thể hiện tài năng và sự sáng tạo qua các dự án khoa học độc đáo.
+                  Ngày 20/10/2024 - Các em học sinh đã thể hiện tài năng và sự sáng tạo qua các dự án STEM độc đáo.
                 </p>
               </CardContent>
             </Card>
@@ -250,7 +250,7 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm">
-                  Ngày 15/11/2024 - Học sinh cùng nhau trồng cây, góp phần bảo vệ môi trường và xây dựng không gian
+                  Ngày 15/03/2025 - Học sinh cùng nhau trồng cây, góp phần bảo vệ môi trường và xây dựng không gian
                   xanh.
                 </p>
               </CardContent>
@@ -265,10 +265,10 @@ export default function Component() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
-                Liên Hệ Với Chúng Tôi
+                Liên Hệ Với Trường Học
               </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Chúng tôi luôn sẵn lòng lắng nghe và giải đáp mọi thắc mắc của bạn.
+                Trường luôn sẵn lòng lắng nghe và giải đáp mọi thắc mắc của mọi người.
               </p>
             </div>
           </div>
@@ -288,13 +288,13 @@ export default function Component() {
                 {" "}
                 {/* Thêm justify-center */}
                 <PhoneIcon className="h-6 w-6 text-primary" />
-                <span>Điện thoại: (0252) 3876 543</span> {/* Thông tin giả định */}
+                <span>Điện thoại: </span> {/* Thông tin giả định */}
               </div>
               <div className="flex items-center justify-center gap-2 text-lg">
                 {" "}
                 {/* Thêm justify-center */}
                 <Mail className="h-6 w-6 text-primary" />
-                <span>Email: lienhe@trachan.edu.vn</span> {/* Thông tin giả định */}
+                <span>Email: lienhe@nonprofitedu.qzz.io</span> {/* Thông tin giả định */}
               </div>
               <Image
                 alt="Google Map of 145 Ngo Quyen, Tan An, La Gi, Binh Thuan, Vietnam"
@@ -311,7 +311,7 @@ export default function Component() {
 
       {/* Footer */}
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-primary text-primary-foreground">
-        <p className="text-sm">&copy; 2025 Trường Tiểu Học Trà Chân. Mọi quyền được bảo lưu.</p>
+        <p className="text-sm">&copy; 2025 Trường Tiểu Học Trà Chan.</p>
       </footer>
     </div>
   )
