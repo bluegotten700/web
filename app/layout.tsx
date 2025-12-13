@@ -5,8 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Tra Chan Nonprofit School',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Created by me'
 }
 
 export default function RootLayout({
