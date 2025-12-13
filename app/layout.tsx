@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Created by me',
   images: {
         // 2. Dùng đường dẫn tuyệt đối (bắt đầu bằng '/')
-        url: '/logo.png', // Trỏ đến public/logo-social.png
+        url: 'public/logo-social.png', // Trỏ đến public/logo-social.png
         width: 800, // Chiều rộng khuyến nghị
         height: 600, // Chiều cao khuyến nghị
       }
