@@ -5,7 +5,13 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Tra Chan Nonprofit School',
-  description: 'Created by me'
+  description: 'Created by me',
+  images: {
+        // 2. Dùng đường dẫn tuyệt đối (bắt đầu bằng '/')
+        url: '/logo.png', // Trỏ đến public/logo-social.png
+        width: 800, // Chiều rộng khuyến nghị
+        height: 600, // Chiều cao khuyến nghị
+      }
 }
 
 export default function RootLayout({
