@@ -6,12 +6,20 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Tra Chan Nonprofit School',
   description: 'Created by me',
-  images: {
-        // 2. Dùng đường dẫn tuyệt đối (bắt đầu bằng '/')
-        url: '/public/logo.png', // Trỏ đến public/logo-social.png
-        width: 800, // Chiều rộng khuyến nghị
-        height: 600, // Chiều cao khuyến nghị
-      }
+  // images dùng cho Open Graph / social preview
+  images: [
+    {
+      url: '/logo.png', // đặt file logo.png trong public/
+      width: 800,
+      height: 600,
+    },
+  ],
+  // icons dùng cho favicon (ảnh trên tab)
+  icons: {
+    icon: '/logo.png',       // đặt file logo.png trong public/
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 export default function RootLayout({
