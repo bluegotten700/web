@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="favicon">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="32" cy="32" r="32" />
+    </clipPath>
+  </defs>
+  <!-- Embed existing /logo.png and clip it to a circle so the favicon appears rounded -->
+  <image href="/logo.png" x="0" y="0" width="64" height="64" preserveAspectRatio="xMidYMid slice" clip-path="url(#circle-clip)" />
+</svg>

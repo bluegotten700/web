@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-label="apple-touch-icon">
+  <defs>
+    <clipPath id="circle-clip-apple">
+      <circle cx="90" cy="90" r="90" />
+    </clipPath>
+  </defs>
+  <image href="/logo.png" x="0" y="0" width="180" height="180" preserveAspectRatio="xMidYMid slice" clip-path="url(#circle-clip-apple)" />
+</svg>
