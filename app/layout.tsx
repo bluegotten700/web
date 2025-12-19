@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   ],
   // icons dùng cho favicon (ảnh trên tab)
   icons: {
-    icon: '/favicon.svg',       // SVG favicon bo tròn
-    shortcut: '/favicon.svg',
-    apple: '/apple-touch-icon.svg',
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
   },
 }
 
@@ -38,11 +38,9 @@ html {
 }
         `}</style>
 
-        {/* Thêm link favicon rõ ràng để đảm bảo trình duyệt dùng file bo tròn */}
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
-        {/* Safari pinned tab (SVG, đơn sắc) */}
-        <link rel="mask-icon" href="/safari-pinned.svg" color="#000000" />
+        {/* Favicon links */}
+        <link rel="icon" type="image/png" href="/logo.png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
       </head>
       <body>{children}</body>
     </html>

@@ -12,7 +12,7 @@ export default function Component() {
       <header className="px-4 lg:px-6 h-16 flex items-center justify-between bg-primary text-primary-foreground shadow-md">
         <Link className="flex items-center gap-2" href="#">
           <Image
-            src="/school-logo-tea-child.png"
+            src="/logo.png"
             alt="Trà Chân School Logo"
             width={40}
             height={40}
